@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.current {
+    max-width: 100%;
+    margin: 10px;
+    cursor: pointer;
+}
+.small {
+    max-width: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+.active {
+    border: 1px solid black;
+}
